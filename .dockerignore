@@ -1,0 +1,38 @@
+# Ignore Python cache files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+
+# Ignore virtual environments
+env
+venv
+ENV
+env.bak
+venv.bak
+fydp-env
+
+# Ignore Django static and media files
+staticfiles
+media
+
+# Ignore distribution / packaging files
+.Python
+*.egg-info
+*.egg
+dist
+build
+
+# Ignore logs and databases
+*.log
+*.sqlite3
+
+# Ignore Node.js files
+node_modules
+
+# Ignore IDE and editor config files
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
